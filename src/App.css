@@ -1,0 +1,599 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+li {
+	list-style-type: none;
+}
+section.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+	width: 90%;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+header {
+	width: 100%;
+	height: 65px;
+	background: #fff;
+	border-bottom:1px solid #e2e8f0; ;
+}
+header section.header {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header h1 {
+	display: flex;
+	align-items: center;
+}
+header h1 a {
+	text-decoration: none;
+	color: #000;
+}
+header h1 small {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header ul li {
+	list-style-type: none;
+	margin-right: 20px;
+}
+header ul li a.login {
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #334155;
+}
+header ul li a.signup {
+	text-decoration: none;
+	color: #fff;
+	background: #334155;
+	padding: 10px;
+	border: 1px solid #334155;
+}
+header ul li a img.cart {
+	padding-top: 6px;
+}
+
+
+
+#home {
+	width: 100%;
+	font-family: sans-serif;
+}
+#home section.home {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 50px 0;                                                                                                                       ;
+}
+#home section.home div.left {
+	width: 47%;
+	display: block;
+	margin: auto 0;
+}
+#home section.home div.left h1 {
+	font-size: 40px;
+	font-weight: 700;
+	width: 483px;
+	line-height: 48px;
+	margin-bottom: 20px;
+}
+#home section.home div.left p {
+	font-size: 16px;
+	color: #334155;
+	font-weight: 400;
+	line-height: 25px;
+	width: 69%;
+	margin-bottom: 40px;
+} 
+#home section.home div.left a.button {
+	background: #3B82F6;
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 8px;
+}
+#home section.home div.right {
+	width: 47%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#home section.home div.right img {
+	display: block;
+	width: 90%;
+}
+
+
+
+#stats {
+	background: #F8FAFC;
+	margin-top: 50px;	
+}
+#stats section.stats {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+#stats section.stats ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 75px 0;
+}
+#stats section.stats ul hr.break_line {
+	border: 3px solid #E2E8F0;	
+}
+#stats section.stats ul li h3 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #0F172A;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#stats section.stats ul li h5 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #0F172A;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+
+#categories {
+	padding: 70px 0 85px;
+}
+#categories section.categories {
+	height: 100%;
+	width: 100%;
+}
+#categories section.categories div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#categories section.categories div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#categories section.categories div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#categories section.categories div.body ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+#categories section.categories div.body ul li {
+	padding: 24px 93px;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0, 0.2);
+}
+#categories section.categories div.body ul li div.logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #e0f2fe;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+#categories section.categories div.body ul li div.logo img {
+	display: block;
+}
+#categories section.categories div.body ul li h3 {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0 15px 0;
+	font-family: sans-serif;
+}
+#categories section.categories div.body ul li small {
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+
+
+#courses section.courses {
+	height: 100%;
+}
+#courses section.courses div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#courses section.courses div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#courses section.courses div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#courses section.courses div.body ul {
+	display: flex;
+	justify-content: space-between;
+}
+#courses section.courses div.body ul li {
+	padding: 15px;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+	width: 21%;
+	cursor: pointer;
+}
+#courses section.courses div.body ul li img.bg {
+	display: block;
+	width: 100%;
+}
+#courses section.courses div.body ul li h3 {
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+#courses section.courses div.body ul li small {
+	font-size: 14px;
+	font-weight: 400;
+}
+#courses section.courses div.body ul li div.rating {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+#courses section.courses div.body ul li div.rating img.last {
+	margin-right: 10px;
+}
+#courses section.courses div.body ul li p {
+	font-size: 14px;
+	font-weight: 400;
+}
+#courses section.courses div.body ul li h3.price {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+#instructors {
+	padding: 75px 0;
+}
+#instructors section.instructors {
+	height: 100%;
+}
+#instructors section.instructors div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#instructors section.instructors div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#instructors section.instructors div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#instructors section.instructors div.body ul {
+	display: flex;
+	justify-content: space-between;
+}
+#instructors section.instructors div.body ul li {
+	padding: 16px;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+}
+#instructors section.instructors div.body ul li img.bg {
+	width: 100%;
+}
+#instructors section.instructors div.body ul li h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+#instructors section.instructors div.body ul li small {
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	color: #334155;
+}
+#instructors section.instructors div.body ul li hr.underline {
+	margin: 13px 0;
+}
+#instructors section.instructors div.body ul li div.rating {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+}
+#instructors section.instructors div.body ul li div.rating div.left {
+	display: flex;
+	align-items: center;
+}
+#instructors section.instructors div.body ul li div.rating div.left img {
+	margin-right: 4px;
+}
+#instructors section.instructors div.body ul li div.rating div.left small {
+	font-size: 16px;
+	padding-top: 3px ;
+}
+#instructors section.instructors div.body ul li div.rating div.right {
+	padding-top: 3px;
+}
+
+
+
+
+#about {
+	background: #F8FAFC;
+	padding: 70px 0;
+}
+#about section.about {
+	height: 100%;
+}
+#about section.about div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#about section.about div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	width: 308px;
+	line-height: 34px;
+}
+#about section.about div.head div.right {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 50px;
+}
+#about section.about div.head div.right img {
+	background: #94A3B8;
+	padding: 12px 32px;
+	border-radius: 8px;
+}
+#about section.about div.body {
+	margin-top: 25px;
+}
+#about section.about div.body ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+#about section.about div.body ul li {
+	padding: 24px;
+	width: 29%;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+}
+#about section.about div.body ul li img {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 15px;
+}
+#about section.about div.body ul li p {
+	width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#about section.about div.body ul li div.role {
+	display: flex;
+	height: 65px;
+	align-items: center;
+}
+#about section.about div.body ul li div.role img {
+	border-radius: 50%;
+	display: block;
+	height: 60px;
+	width: 60px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+#about section.about div.body ul li div.role div.name h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+#about section.about div.body ul li div.role div.name small {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
+#spotlight {
+	padding: 60px 0;
+}
+#spotlight section.spotlight {
+	height: 100%;
+}
+#spotlight section.spotlight section.top {
+	display: flex;
+	justify-content: space-between;
+	width: 77%;
+	margin: 0 auto;
+}
+#spotlight section.spotlight section.top div.left {
+	width: 35%;
+}
+#spotlight section.spotlight section.top div.right {
+	width: 50%;
+	margin: auto 0;
+}
+#spotlight section.spotlight section.top div.right h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+#spotlight section.spotlight section.top div.right p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+#spotlight section.spotlight section.top div.right a.button {
+	background: #020617;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+}
+#spotlight section.spotlight section.bottom {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 55px;
+	width: 77%;
+	margin: 0 auto;
+}
+#spotlight section.spotlight section.bottom div.left {
+	width: 50%;
+	margin: auto 0;
+}
+#spotlight section.spotlight section.bottom div.left h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+#spotlight section.spotlight section.bottom div.left p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+#spotlight section.spotlight section.bottom div.left a.button {
+	background: #020617;
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 8px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+#spotlight section.spotlight section.bottom div.left a.button img {
+	margin-left: 4px;
+}
+#spotlight section.spotlight section.top div.right a.button img {
+	margin-left: 4px;
+}
+#spotlight section.spotlight section.bottom div.right {
+	width: 35%;
+}
+
+
+
+footer {
+	background: #1E293B;
+	color: #fff;
+	padding: 60px 0;
+}
+footer section.footer {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+footer section.footer div.left {
+	width: 31%;
+}
+footer section.footer div.left div.logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+footer section.footer div.left div.logo small {
+	font-size: 21px;
+	font-weight: 400;
+}
+footer section.footer div.left p.one {
+	font-size: 14px;
+	line-height: 25px;
+	color: #cbd5e1;
+}
+footer section.footer div.left p.two {
+	font-size: 14px;
+	line-height: 25px;
+	color: #cbd5e1;
+}
+footer section.footer div.right {
+	display: flex;
+	width: 57%;
+	justify-content: space-between;
+}
+footer section.footer div.right ul h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	color: #f1f5f9;
+}
+footer section.footer div.right ul li {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 12px;
+	color: #cbd5e1;
+}
+footer section.footer div.right ul li a {
+	color: #cbd5e1;
+	text-decoration: none;
+}
+footer section.footer div.right ul.last {
+	width: 50%;
+}
+footer section.footer div.right ul.last ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 75%;
+}
