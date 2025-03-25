@@ -1,15 +1,22 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./components/assets/fonts/Inter-Regular.woff2') format('woff2'),
+        url('./components/assets/fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Inter;
 }
 li {
 	list-style-type: none;
 }
-section.wrapper {
+.wrapper {
 	max-width: 1440px;
 	margin: 0 auto;
-	height: 100%;
 	width: 90%;
 }
 a {
@@ -22,13 +29,15 @@ header {
 	width: 100%;
 	height: 65px;
 	background: #fff;
-	border-bottom:1px solid #e2e8f0; ;
+	border-bottom:1px solid #e2e8f0; 
+	display: flex;
 }
 header section.header {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 header h1 {
 	display: flex;
@@ -51,6 +60,9 @@ header ul {
 header ul li {
 	list-style-type: none;
 	margin-right: 20px;
+}
+header ul li:last-child {
+	margin-right: 0;
 }
 header ul li a.login {
 	text-decoration: none;
@@ -608,4 +620,336 @@ footer section.footer div.right ul.last ul {
 	justify-content: space-between;
 	margin-top: 25px;
 	width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header ul li.user {
+	background-color: #334155;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+header ul li.user a{
+	color: white;
+}
+
+
+
+
+section#courseDetail {
+	background-color: #F8FAFC;
+	padding: 50px 0;
+	height: 330px;
+}
+section#courseDetail section.courseDetail {
+	display: flex;
+	justify-content: space-between;
+}
+section#courseDetail section.courseDetail div.leftContainer {
+	width: 75%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path{
+	display: flex;
+	gap: 30px;
+	color: #334155;
+	width: 100%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path small {
+	font-size: 14px;
+	color: #334155;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path small.courseTitle {
+	color: #2563EB;
+	font-size: 14px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path img {
+	display: block;
+}
+section#courseDetail section.courseDetail div.leftContainer h2 {
+	color: #0F172A;
+	font-weight: 1000px;
+	font-size: 40px;
+	margin-top: 30px;
+}
+section#courseDetail section.courseDetail div.leftContainer p {
+	color: #334155;
+	font-size: 16px;
+	line-height: 160%;
+	margin-top: 18px;
+	width: 70%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails{
+	display: flex;
+	align-items: center;
+	margin-top: 18px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails b{
+	font-size: 16px;
+	color: #fec84b;
+	margin-right: 5px;
+	align-content: center;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails div.ratingstar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 4px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails div.ratingstar img{
+	display: block;
+	margin-right: 4px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails small{
+	color: #334155;
+	font-size: 14px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails div.instructorImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 8px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails div.instructorImage img{
+	display: block;
+	width: 100%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails h6 {
+	font-size: 14px;
+	color: #334155;
+	font-weight: 400;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails img{
+	display: block;
+	width: 24px;
+	margin-right: 8px;
+	height: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails small {
+	font-size: 14px;
+	color: #334155;
+}
+
+section#courseDetail section.courseDetail div.rightContainer {
+	border: 1px solid #E2E8F0;
+	border-radius: 16px;
+	background-color: white;
+	padding: 18px;
+	box-shadow: 0 0 8px 0 #3B82F61F;
+	width: 25%;
+}
+section#courseDetail section.courseDetail div.rightContainer div.instructorBg{
+	width: 100%;
+}
+section#courseDetail section.courseDetail div.rightContainer div.instructorBg img {
+	display: block;
+	width: 100%;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.offer {
+	font-weight: 600;
+	font-size: 24px;
+	color: #0f172a;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.pricing {
+	font-weight: 600;
+	font-size: 18px;
+	color: #0f172a;
+	opacity: 20%;
+	text-decoration: line-through;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.off {
+	font-size: 20px;
+	font-weight: 600;
+	color: #16a34a;
+}
+section#courseDetail section.courseDetail div.rightContainer a.addToCartButton {
+	display: block;
+	text-align: center;
+	background-color: #020617;
+	border-radius: 8px;
+	color: white;
+	padding: 10px 24px;
+	margin-bottom: 20px;
+}
+section#courseDetail section.courseDetail div.rightContainer a.buyNowButton {
+	display: block;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #020617;
+	border-radius: 8px;
+	color: #020617;
+	padding: 10px 24px;
+	margin-bottom: 30px;
+}
+section#courseDetail section.courseDetail div.rightContainer hr {
+	border: 1px solid #E2E8F0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+section#courseDetail section.courseDetail div.rightContainer small.share {
+	color: #0F172A;
+	font-size: 16px;
+	font-weight: 500;
+}
+section#courseDetail section.courseDetail div.rightContainer ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 80%;
+}
+
+
+
+section#courseInfo {
+	padding: 50px 0 0 0;
+}
+section#courseInfo section.courseInfo {
+	width: 70%;
+}
+section#courseInfo section.courseInfo ul.infoCategories {
+	display: flex;
+	gap: 24px;
+}
+section#courseInfo section.courseInfo ul.infoCategories li {
+	border: 1px solid #E2E8F0;
+	border-radius: 8px;
+	padding: 18px 21px;
+}
+section#courseInfo section.courseInfo hr {
+	margin-top: 24px;
+	border: 1px solid #E2E8F0;
+}
+section#courseInfo section.courseInfo h5 {
+	color: #0F172A;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+section#courseInfo section.courseInfo p {
+	margin-top: 15px;
+	color: #334155;
+	line-height: 160%;
+	font-weight: 400;
+	font-size: 16px;
+	width: 84%;
+}
+section#courseInfo section.courseInfo h5.InsName {
+	color: #2563EB;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 30px;
+}
+section#courseInfo section.courseInfo h6.InsRole {
+	color: #334155;
+	font-size: 16px;
+	margin-top: 8px;
+	font-weight: 400;
+}
+section#courseInfo section.courseInfo div.InsDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+}
+section#courseInfo section.courseInfo div.InsDetails div.InsImage {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+section#courseInfo section.courseInfo div.InsDetails div.InsImage img {
+	display: block;
+	width: 100%;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing li {
+	display: flex;
+	align-items: center;
+	color: #0F172A;
+	font-weight: 400;
+	font-size: 14px;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing li img {
+	width: 18px;
+	height: 18px;
+	margin-right: 6px;
+}
+
+
+
+section#syllabus {
+	padding-top:30px ;
+}
+section#syllabus section.syllabus {
+
+}
+section#syllabus section.syllabus h5 {
+	margin-bottom: 22px;
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+}
+section#syllabus section.syllabus ul {
+	border: 1px solid #E2E8F0;
+	border-radius: 8px;
+	width: 50%;
+}
+section#syllabus section.syllabus ul li {
+	display: flex;
+	align-items: center;
+}
+section#syllabus section.syllabus ul li img {
+
+}
+section#syllabus section.syllabus ul li h6 {
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 18px;
+}
+section#syllabus section.syllabus ul li small.les {
+
+}
+section#syllabus section.syllabus ul li small.hour {
+
+}
+section#syllabus section.syllabus ul hr {
+	border: 1px solid #E2E8F0;
+}
+section#syllabus section.syllabus hr {
+
 }

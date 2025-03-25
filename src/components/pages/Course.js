@@ -1,13 +1,25 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import SinglePageHeader from '../screens/SinglePageHeader'
+import CourseDetailings from "../screens/CourseDetailing"
+import CourseInfo from '../screens/CourseInfo'
+import Syllabus from '../screens/Syllabus'
 
 function Course() {
   return (
     <>
         <Helmet>
-            <title>Course 1</title>
+            <title>Course | Web Development</title>
         </Helmet>
-        <h1>Courses</h1>
+        
+        <SinglePageHeader/>
+
+        <CourseDetailings />
+
+        <CourseInfo />
+
+        <Syllabus />
+        
     </>
   )
 }
