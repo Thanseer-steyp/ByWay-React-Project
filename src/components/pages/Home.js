@@ -12,19 +12,7 @@ import About from '../screens/About';
 import Explore from '../screens/Explore';
 import Footer from '../includes/Footer';
 
-
-
-
-
-
-
-
-
-
-
-
-
-function Home() {
+function Home(course_title) {
   return (
     <>
         <Helmet>
@@ -40,11 +28,11 @@ function Home() {
 
         <Categories/>
 
-        <Courses/>
+        <Courses course_title="Top Courses" />
 
         <Instructors/>
 
-        <About/>
+        <About />
 
         <Explore/>
 

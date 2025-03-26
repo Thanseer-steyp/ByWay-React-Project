@@ -171,7 +171,7 @@ header ul li a img.cart {
 
 
 #categories {
-	padding: 70px 0 85px;
+	padding-top: 70px;
 }
 #categories section.categories {
 	height: 100%;
@@ -237,7 +237,7 @@ header ul li a img.cart {
 
 
 #courses section.courses {
-	height: 100%;
+	padding: 70px 0;
 }
 #courses section.courses div.head {
 	display: flex;
@@ -304,7 +304,7 @@ header ul li a img.cart {
 
 
 #instructors {
-	padding: 75px 0;
+	padding-bottom: 75px ;
 }
 #instructors section.instructors {
 	height: 100%;
@@ -849,6 +849,7 @@ section#courseInfo section.courseInfo ul.infoCategories li {
 section#courseInfo section.courseInfo hr {
 	margin-top: 24px;
 	border: 1px solid #E2E8F0;
+	width: 84%;
 }
 section#courseInfo section.courseInfo h5 {
 	color: #0F172A;
@@ -927,29 +928,155 @@ section#syllabus section.syllabus h5 {
 section#syllabus section.syllabus ul {
 	border: 1px solid #E2E8F0;
 	border-radius: 8px;
-	width: 50%;
+	width: 55%;
 }
 section#syllabus section.syllabus ul li {
 	display: flex;
 	align-items: center;
+	padding: 24px;
 }
 section#syllabus section.syllabus ul li img {
-
+	margin-right: 12px;
 }
 section#syllabus section.syllabus ul li h6 {
 	color: #0F172A;
 	font-weight: 600;
 	font-size: 18px;
+	flex: 1;
 }
 section#syllabus section.syllabus ul li small.les {
-
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
+	margin-right: 8px;
 }
 section#syllabus section.syllabus ul li small.hour {
-
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
 }
 section#syllabus section.syllabus ul hr {
 	border: 1px solid #E2E8F0;
 }
-section#syllabus section.syllabus hr {
+section#syllabus section.syllabus hr.last {
+	margin-top: 24px;
+	border: 1px solid #E2E8F0;
+	width: 59%;
+}
 
+
+
+section#learnerReviews {
+	padding-top: 30px;
+}
+section#learnerReviews section.learnerReviews {
+
+}
+section#learnerReviews section.learnerReviews h5 {
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection {
+	margin-top: 30px;
+	display: flex;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection {
+	width: 50%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating {
+	display: flex;
+	align-items: center;
+	vertical-align: baseline;
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating img {
+	display: block;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating small {
+	color: #334155;
+	font-size: 14px;
+	font-weight: 500;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels {
+
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li {
+	display: flex;
+	align-items: center;
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li img {
+	display: block;
+	margin-right: 4px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li img:last-child {
+	margin-right: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection {
+
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li {
+	display: flex;
+	border: 1px solid #E2E8F0;
+	border-radius: 16px;
+	padding: 24px;
+	margin-bottom: 16px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+	display: flex;
+	width: 80%;
+	align-items: center;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection img {
+	display: block;
+	margin-right: 12px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection h5 {
+	color: #0F172A;
+	font-size: 18px;
+	font-weight: 600;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection {
+
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection img {
+	display: block;
+	margin-right: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection small{
+	color: #334155;
+	font-weight: 400;
+	margin-left: 30px;
+	font-size: 14px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection p {
+	color: #334155;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	width:83%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection a.ViewMoreReviews {
+	color: #0F172A;
+	font-weight: 500;
+	padding: 10px 24px;
+	border: 1px solid #0F172A;
+	border-radius: 8px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 24px;
 }
