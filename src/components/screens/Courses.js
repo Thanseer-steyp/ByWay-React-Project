@@ -2,7 +2,7 @@ import React from 'react'
 import CourseImage from "../assets/images/bg.jpg"
 import StarIcon from "../assets/icons/star.svg"
 
-function Courses(props, {product}) {
+function Courses(props) {
   return (
     <>
       <section id="courses">
@@ -14,7 +14,6 @@ function Courses(props, {product}) {
                     </div>
                     <div class="body">
                         <ul>
-                            
                             <li>
                                <img class="bg" src={CourseImage} alt="Course-Image"/>
                                 <h3>Beginner’s Guide to Design</h3>
