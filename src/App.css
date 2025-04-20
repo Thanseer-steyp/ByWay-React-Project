@@ -48,7 +48,8 @@ header h1 {
 header h1 a {
 	text-decoration: none;
 	color: #000;
-	display: block;
+	display: flex;
+	align-items: center;
 	width: 100%;
 }
 header h1 small {
@@ -111,6 +112,7 @@ header ul li a img.cart {
 	width: 483px;
 	line-height: 48px;
 	margin-bottom: 20px;
+	color: #0F172A;
 }
 #home section.home div.left p {
 	font-size: 16px;
@@ -233,12 +235,14 @@ header ul li a img.cart {
 	font-weight: 600;
 	margin: 10px 0 15px 0;
 	font-family: sans-serif;
+	color: #0F172A;
 }
 #categories section.categories div.body ul li small {
 	display: block;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 16px;
+	color: #334155;
 }
 
 
@@ -292,6 +296,7 @@ header ul li a img.cart {
 #courses section.courses div.body ul li small {
 	font-size: 14px;
 	font-weight: 400;
+	color: #334155;
 }
 #courses section.courses div.body ul li div.rating {
 	display: flex;
@@ -306,6 +311,7 @@ header ul li a img.cart {
 #courses section.courses div.body ul li p {
 	font-size: 14px;
 	font-weight: 400;
+	color: #334155;
 }
 #courses section.courses div.body ul li h3.price {
 	font-size: 20px;
@@ -369,6 +375,7 @@ header ul li a img.cart {
 }
 #instructors section.instructors div.body ul li hr.underline {
 	margin: 13px 0;
+	border:1px solid #E2E8F0 ;
 }
 #instructors section.instructors div.body ul li div.rating {
 	display: flex;
@@ -449,7 +456,8 @@ header ul li a img.cart {
 	width: 29%;
 	border: 1px solid #e2e8f0;
 	border-radius: 16px;
-	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+	background-color: white;
+	box-shadow: 0px 0px 8px 0px #3B82F61F;
 }
 #about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card img {
     width: 48px;
@@ -523,6 +531,7 @@ header ul li a img.cart {
 	line-height: 25px;
 	width: 100%;
 	margin-bottom: 30px;
+	color: #1D2939;
 }
 #spotlight section.spotlight section.top div.right a.button {
 	background: #020617;
@@ -554,6 +563,7 @@ header ul li a img.cart {
 	line-height: 25px;
 	width: 100%;
 	margin-bottom: 30px;
+	color: #1D2939;
 }
 #spotlight section.spotlight section.bottom div.left a.button {
 	background: #020617;
@@ -883,6 +893,9 @@ section#courseInfo section.courseInfo ul.infoCategories li {
 	border: 1px solid #E2E8F0;
 	border-radius: 8px;
 	padding: 18px 21px;
+}
+section#courseInfo section.courseInfo ul.infoCategories li:first-child {
+	background-color: #EFF6FF;
 }
 section#courseInfo section.courseInfo hr {
 	margin-top: 24px;

@@ -10,8 +10,11 @@ function Header() {
             <section class="wrapper">
                 <section class="header">
                 <h1>
-                    <a href="https://www.steyp.com"><img src={Logo} alt='Logo'/></a>
-                    <small>Byway</small>
+                    <a href="https://www.steyp.com">
+                      <img src={Logo} alt='Logo'/>
+                      <small>Byway</small>
+                    </a>
+                    
                 </h1>
                 <ul>
                     <li><a href="https://www.steyp.com"><img src={Cart} alt='Cart'/></a></li>

@@ -16,8 +16,8 @@ function SinglePageHeader() {
                 <h1>
                     <Link to="/">
                     <img src={Logo} alt='Logo'/>
-                    </Link>
                     <small>Byway</small>
+                    </Link>
                 </h1>
                 <ul>
                     <li><a href="https://www.steyp.com"><img src={WishList} alt='Wishlist'/></a></li>
